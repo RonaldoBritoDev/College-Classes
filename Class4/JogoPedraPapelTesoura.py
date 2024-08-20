@@ -6,7 +6,13 @@ comp = random.choice(['Pedra','Papel', 'Tesoura'])
 print('Computador escolheu:', comp)
 
 
-if comp == jogador : 
+if jogador == comp :
+    print('[Empate]')
+elif jogador == 'pedra' :
+    
+
+
+ """"if comp == jogador : 
     print('[Empate]')
 elif jogador == 'Pedra' :
     if comp == 'Tesoura' : 
@@ -21,5 +27,4 @@ elif jogador == 'Papel' :
 
 elif comp == 'Papel' : 
     print('Tesoura corta Papel, você [Ganhou]')
-else:
-    print('Pedra quebra Tesoura, você [Perdeu]')
+else: """
